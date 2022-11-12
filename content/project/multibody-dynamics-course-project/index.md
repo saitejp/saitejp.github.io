@@ -18,9 +18,9 @@ links:
   #   name: Follow
   #   url: https://twitter.com/georgecushen
 url_code: ''
-url_pdf: 'https://github.com/saitejp/starter-hugo-academic-website/blob/main/content/project/multibody-dynamics-course-project/projectreport.pdf'
+url_pdf: ''
 url_slides: ''
-url_video: 'https://github.com/saitejp/starter-hugo-academic-website/blob/main/content/project/multibody-dynamics-course-project/2DDoublePendulumAnimation.mov'
+url_video: ''
 
 # Slides (optional).
 #   Associate this project with Markdown slides.
@@ -29,4 +29,6 @@ url_video: 'https://github.com/saitejp/starter-hugo-academic-website/blob/main/c
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
+{{< video src="2DDoublePendulumAnimation.mov" controls="yes" >}}
+
 The primary motivation to develop a multibody dynamics library is different systems with different parameters can be simulated using the same library. This eliminates the need for specialized codes for individual problems. For example, different codes have to be developed for the simulation of a double pendulum and an excavator. But, once the library is developed, both the systems can be simulated using the same library. The library was developed using Matlab. This project gave an intuition about how multibody dynamics simulation softwares like Adams work.
