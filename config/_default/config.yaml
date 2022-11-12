@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: Sai Tej Paruchuri # Website name
-baseURL: 'https://saitejparuchuri.netlify.app/' # Website URL
+baseURL: 'https://saitejp.github.io/' # Website URL
 
 ############################
 ## LANGUAGE
