@@ -16,6 +16,7 @@ design:
   columns: '1'
 
 draft: true
+active: false
 ---
 
 {{< gallery album="demo" >}}

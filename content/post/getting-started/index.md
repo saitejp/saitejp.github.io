@@ -39,6 +39,9 @@ tags:
 categories:
   - Demo
   - 教程
+
+active: false
+draft: true
 ---
 
 ```python

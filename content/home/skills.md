@@ -7,7 +7,7 @@ widget: features
 headless: true
 
 # Order that this section appears on the page.
-weight: 30
+weight: 100
 
 title: Skills
 subtitle:
@@ -16,15 +16,27 @@ subtitle:
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
-  - description: 90%
-    icon: r-project
-    icon_pack: fab
-    name: R
   - description: 100%
-    icon: chart-line
+    icon: book
     icon_pack: fas
-    name: Statistics
-  - description: 10%
+    name: MATLAB & Simulink
+  - description: 80%
+    icon: python
+    icon_pack: fab
+    name: Python
+  - description: 75%
+    icon: c
+    icon_pack: fas
+    name: C/C++
+  - description: 100%
+    icon: file-word
+    icon_pack: fas
+    name: Latex/Overleaf
+  - description: 65%
+    icon: pen-ruler
+    icon_pack: fas
+    name: Adobe Illustrator/Inkscape
+  - description: 25%
     icon: camera-retro
     icon_pack: fas
     name: Photography
