@@ -74,14 +74,23 @@ experience:
 
     
   - title: Grader
-    company: Mathematics, Mechanical Engineering, Virginia Tech
+    company: Mechanical Engineering, Virginia Tech
+    company_url: 'https://www.vt.edu'
+    company_logo: VTlogo
+    location: Blacksburg, VA, USA
+    date_start: '2016-08-01'
+    date_end: '2016-12-01'
+    description:
+
+  - title: Grader
+    company: Mathematics, Virginia Tech
     company_url: 'https://www.vt.edu'
     company_logo: VTlogo
     location: Blacksburg, VA, USA
     date_start: '2016-01-01'
-    date_end: '2016-12-01'
+    date_end: '2016-05-01'
     description:
-
+  
   - title: Design Engineer
     company: Amritha Tool Crafts Pvt. Ltd.
     company_url: ''
