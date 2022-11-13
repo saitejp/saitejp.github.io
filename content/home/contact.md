@@ -22,7 +22,7 @@ content:
       id:
     netlify:
       # Enable CAPTCHA challenge to reduce spam?
-      captcha: false
+      captcha: true
 
   # Contact details (edit or remove options as required)
   email: saitejp@lehigh.edu
@@ -34,10 +34,10 @@ content:
     postcode: '18015'
     country: United States
     country_code: US
-  coordinates:
-    latitude: '37.4275'
-    longitude: '-122.1697'
-  directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+  # coordinates:
+  #   latitude: '37.4275'
+  #   longitude: '-122.1697'
+  # directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
   # office_hours:
   #   - 'Monday 10:00 to 13:00'
   #   - 'Wednesday 09:00 to 10:00'
