@@ -2,7 +2,7 @@
 title: Undergraduate Projects
 summary: A list of projects I compelted during my undergraduate degree.
 tags:
-  - Undergraduate
+  - undergraduate
 date: '2014-05-01T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).

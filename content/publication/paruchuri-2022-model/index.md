@@ -6,9 +6,11 @@ title: Model-based Safety-Factor-Profile Slope Control at Predefined Rational Su
 subtitle: ''
 summary: ''
 authors:
-- Sai Tej Paruchuri
+- admin
 - Eugenio Schuster
-tags: []
+tags:
+  - plasma control
+  - controls
 categories: []
 date: '2022-01-01'
 lastmod: 2022-11-12T05:28:34-05:00
@@ -32,6 +34,9 @@ projects: []
 publishDate: '2022-11-12T10:28:34.612519Z'
 publication_types:
 - '2'
-abstract: ''
+abstract: 'Magnetohydrodynamic instabilities like neoclassical tearing modes appearing at rational safety-factor surfaces can degrade and even disrupt plasma confinement. It has been proposed that active regulation of the safety-factor-profile slope at these rational surfaces may mitigate the onset of such instabilities [1]. Recently proposed algorithms for local control of the safety-factor profile rely on indirectly regulating the slope of the poloidal-flux-gradient profile to achieve the desired control objective [2]. However, due to the nonlinear relation between the safety factor and the gradient of the poloidal flux, regulating only the slope of the poloidal-flux-gradient profile may not always achieve the desired safety-factor-profile slope. A novel algorithm is proposed in this work based on a model that governs the evolution of the safety-factor-profile gradient, which enables control synthesis for direct regulation of the safety-factor-profile slope. The effectiveness of the proposed model and the associated model-based controller are demonstrated using nonlinear COTSIM simulations for a DIII‑D scenario. 
+
+[1] K. Kim et al., APS Division of Plasma Physics Meeting 2018 (NP11.119). 
+[2] S.T. Paruchuri et al., APS Division of Plasma Physics Meeting 2021 (GP11.013).'
 publication: '*Bulletin of the American Physical Society*'
 ---

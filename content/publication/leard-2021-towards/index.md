@@ -7,10 +7,10 @@ subtitle: ''
 summary: ''
 authors:
 - Brian Leard
-- Sai Tej Paruchuri
+- admin
 - Tariq Rafiq
 - Eugenio Schuster
-tags: []
+tags: plasma control
 categories: []
 date: '2021-01-01'
 lastmod: 2022-11-12T05:28:31-05:00
@@ -34,6 +34,6 @@ projects: []
 publishDate: '2022-11-12T10:28:31.635931Z'
 publication_types:
 - '1'
-abstract: ''
+abstract: 'The realization of advanced scenarios in tokamaks is achieved by carefully selecting the actuator trajectory waveforms, which defines a feedforward control problem. As an alternative to the usual ``trial-and-error'' approach, a more systematic approach to scenario planning via model-based optimization has been proposed. By parameterizing the actuator trajectories, the feedforward control inputs are determined by minimizing a cost function measuring the distance between actual and desired plasma state. This arbitrary cost function, which can weigh different properties of the desired plasma state, is minimized subject to plasma-dynamics, actuator, and state constraints by using Sequential Quadratic Programming. To avoid spending time in numerically computing the gradients of the cost function with respect to the to-be-optimized parameters, analytical expressions of these gradients are pre-calculated in this work. These expressions require the integration of a plasma transport model for NSTX-U, which is provided in this case by the Control Oriented Transport SIMulator (COTSIM). This fast feedforward-control optimizer has the potential of being used routinely for in-between-discharges scenario planning at NSTX-U.'
 publication: '*APS Division of Plasma Physics Meeting Abstracts*'
 ---

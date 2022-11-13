@@ -6,10 +6,14 @@ title: Reproducing kernel Hilbert space embedding for adaptive estimation of non
 subtitle: ''
 summary: ''
 authors:
-- Sai Tej Paruchuri
+- admin
 - Jia Guo
 - Andrew Kurdila
-tags: []
+tags:
+  - vibrations
+  - adaptive structures
+  - data-driven modeling
+  - learning
 categories: []
 date: '2020-01-01'
 lastmod: 2022-11-12T05:28:29-05:00
@@ -33,6 +37,6 @@ projects: []
 publishDate: '2022-11-12T10:28:29.529064Z'
 publication_types:
 - '2'
-abstract: ''
+abstract: 'Nonlinearities in piezoelectric systems can arise from internal factors such as nonlinear constitutive laws or external factors like realizations of boundary conditions. It can be difficult or even impossible to derive detailed models from the first principles of all the sources of nonlinearity in a system. This paper introduces adaptive estimator techniques to approximate the nonlinearities that can arise in certain classes of piezoelectric systems. Here an underlying structural assumption is that the nonlinearities can be modeled as continuous functions in a reproducing kernel Hilbert space (RKHS). This approach can be viewed as a data-driven method to approximate the unknown nonlinear system. This paper introduces the theory behind the adaptive estimator, discusses precise conditions that guarantee convergence of the function estimates, and studies the effectiveness of this approach numerically for a class of nonlinear piezoelectric composite beams.'
 publication: '*Nonlinear Dynamics*'
 ---

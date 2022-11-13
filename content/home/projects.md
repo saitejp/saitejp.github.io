@@ -7,9 +7,9 @@ widget: portfolio
 headless: true
 
 # Order that this section appears on the page.
-weight: 65
+weight: 70
 
-title: Research
+title: Projects
 subtitle: ''
 
 content:
@@ -27,10 +27,10 @@ content:
   filter_button:
     - name: All
       tag: '*'
-    - name: Deep Learning
-      tag: Deep Learning
+    - name: Graduate
+      tag: graduate
     - name: Undergraduate
-      tag: Undergraduate
+      tag: undergraduate
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.

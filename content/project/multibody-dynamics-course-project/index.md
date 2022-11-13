@@ -2,7 +2,7 @@
 title: Multibody Dynamics Library for 2D and 3D Multibody Systems
 summary: Multibody Dynamics Course Project
 tags:
-  - Graduate
+  - graduate
 date: '2014-05-01T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).

@@ -37,4 +37,6 @@ publication_types:
 - '1'
 abstract: ''
 publication: '*APS Division of Plasma Physics Meeting Abstracts*'
+draft: true
+active: false
 ---

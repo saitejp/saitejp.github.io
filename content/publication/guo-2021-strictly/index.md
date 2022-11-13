@@ -8,11 +8,13 @@ summary: ''
 authors:
 - Jia Guo
 - Michael E Kepler
-- Sai Tej Paruchuri
+- admin
 - Haoran Wang
 - Andrew J Kurdila
 - Daniel J Stilwell
-tags: []
+tags: 
+  - data-driven modeling
+  - learning
 categories: []
 date: '2021-01-01'
 lastmod: 2022-11-12T05:28:30-05:00
@@ -36,6 +38,6 @@ projects: []
 publishDate: '2022-11-12T10:28:30.526772Z'
 publication_types:
 - '2'
-abstract: ''
+abstract: 'This paper describes an adaptive method in continuous time for the estimation of external fields by a team of N agents. The agents i each explore subdomains Ωi of a bounded subset of interest Ω⊂X:=ℝd. Ideal adaptive estimates ĝit are derived for each agent from a distributed parameter system (DPS) that takes values in the scalar-valued reproducing kernel Hilbert space HX of functions over X. Approximations of the evolution of the ideal local estimate ĝit of agent i is constructed solely using observations made by agent i on a fine time scale. Since the local estimates on the fine time scale are constructed independently for each agent, we say that the method is strictly decentralized. On a coarse time scale, the individual local estimates ĝit are fused via the expression ĝt:=∑Ni=1Ψiĝit that uses a partition of unity {Ψi}1≤i≤N subordinate to the cover {Ωi}i=1,…,N of Ω. Realizable algorithms are obtained by constructing finite dimensional approximations of the DPS in terms of scattered bases defined by each agent from samples along their trajectories. Rates of convergence of the error in the finite dimensional approximations are derived in terms of the fill distance of the samples that define the scattered centers in each subdomain. The qualitative performance of the convergence rates for the decentralized estimation method is illustrated via numerical simulations.'
 publication: '*arXiv preprint arXiv:2103.12721*'
 ---

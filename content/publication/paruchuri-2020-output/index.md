@@ -6,8 +6,9 @@ title: 'Output Regulation of Systems Governed by Delay Differential Equations: A
 subtitle: ''
 summary: ''
 authors:
-- Sai Tej Paruchuri
-tags: []
+- admin
+tags:
+  - controls
 categories: []
 date: '2020-01-01'
 lastmod: 2022-11-12T05:28:29-05:00
@@ -31,6 +32,6 @@ projects: []
 publishDate: '2022-11-12T10:28:29.060600Z'
 publication_types:
 - '7'
-abstract: ''
+abstract: 'This thesis considers the problem of robust geometric regulation for tracking and disturbance rejection of systems governed by delay differential equations. It is well known that geometric regulation can be highly sensitive to system parameters and hence such designs are not always robust. In particular, when employing numerical approximations to delay systems, the resulting finite dimensional models inherit natural approximation errors that can impact robustness. This demonstrates this lack of robustness and then addresses robustness by employing versions of robust regulation that have been developed for infinite dimensional systems. Numerical examples are given to illustrate the ideas and to test the robustness of the regulator.'
 publication: ''
 ---

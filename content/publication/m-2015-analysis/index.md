@@ -6,8 +6,10 @@ title: Analysis and modeling the effect of Fiber orientation on shear stress of 
 subtitle: ''
 summary: ''
 authors:
-- Paruchuri Sai Tej, M.Mahesh M.Elango
-tags: []
+- M.Elango
+- admin
+- M.Mahesh
+tags: others
 categories: []
 date: '2015-01-01'
 lastmod: 2022-11-12T05:28:25-05:00

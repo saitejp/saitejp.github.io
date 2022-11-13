@@ -2,16 +2,18 @@
 # Documentation: https://wowchemy.com/docs/managing-content/
 
 title: Approximations of the Reproducing Kernel Hilbert Space (RKHS) Embedding Method
-  over Manifolds. July 2020
+  over Manifolds
 subtitle: ''
 summary: ''
 authors:
 - Jia Guo
-- Sai Tej Paruchuri
+- admin
 - Andrew J Kurdila
-tags: []
+tags:
+  - data-driven modeling
+  - learning
 categories: []
-date: '2007-01-01'
+date: '2020-01-01'
 lastmod: 2022-11-12T05:28:33-05:00
 featured: false
 draft: false
@@ -33,6 +35,6 @@ projects: []
 publishDate: '2022-11-12T10:28:33.196828Z'
 publication_types:
 - '2'
-abstract: ''
+abstract: 'The reproducing kernel Hilbert space (RKHS) embedding method is a recently introduced estimation approach that seeks to identify the unknown or uncertain function in the governing equations of a nonlinear set of ordinary differential equations (ODEs). While the original state estimate evolves in Euclidean space, the function estimate is constructed in an infi- nite dimensional RKHS and must be approximated in practice. When a finite dimensional approximation is constructed using a basis defined in terms of shifted kernel functions centered at the observations along a trajectory, the RKHS embedding method can be understood as a data-driven approach. This paper derives sufficient conditions that ensure that approximations of the unknown function converge in a Sobolev norm over a submanifold that supports the dynamics. Moreover, the rate of convergence for the finite dimensional approximations is derived in terms of the fill distance of the samples in the embedded manifold. A numerical simulation of an example problem is carried out to illustrate the qualitative nature of convergence results derived in the paper.'
 publication: '*URL http://arxiv. org/abs*'
 ---

@@ -1,9 +1,9 @@
 ---
 title: Other Graduate Projects
-summary: A list of projects I compelted during my undergraduate degree.
+summary: A list of projects I compelted in my grad school.
 tags:
-  - Undergraduate
-date: '2014-05-01T00:00:00Z'
+  - graduate
+date: '2020-05-01T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''

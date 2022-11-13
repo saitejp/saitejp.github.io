@@ -5,6 +5,7 @@ draft: true
 share: false
 commentable: false
 editable: false
+weight: 10
 
 # Optional header image (relative to `static/media/` folder).
 header:

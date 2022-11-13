@@ -10,9 +10,9 @@ authors:
 - Karan Kothari
 - VVN Sriram Malladi
 - Pablo Tarazaga
-- Sai Tej Paruchuri
+- admin
 - Andrew Kurdila
-tags: []
+tags: vibrations
 categories: []
 date: '2020-01-01'
 lastmod: 2022-11-12T05:28:26-05:00
@@ -36,6 +36,6 @@ projects: []
 publishDate: '2022-11-12T10:28:26.595788Z'
 publication_types:
 - '6'
-abstract: ''
+abstract: 'Tuned vibration absorbers (TVA) provide passive energy dissipation from their primary structure but are limited to only having significant impact on a single frequency. Many researchers have theoretically determined optimal TVA parameters to build an array of varied sized TVAs to absorb a range of frequencies and ultimately flatten an entire peak of a structure’s frequency response function (FRF). These theoretical approaches often only considered the primary structure to have a single degree-of-freedom and did not consider material and spatial constraints that would normally arise in physical implementation. This study provides the method and results of designing and implementing multiple arrays of TVAs to flatten the FRF at and around both modal frequencies of a two-degree-of-freedom (2DOF) structure. The host 2DOF structure is comprised of two small wooden blocks supported by four thin aluminum posts in a two-story setup with base excitation. A total of 20 TVAs were attached to each primary mass—ten targeting frequencies around the low-frequency mode and ten targeting frequencies around the high-frequency mode. The TVAs were cantilever beams made of varied length dry fettuccini pasta with some including modeling-clay tip masses. The final design successfully reduced the original 2DOF structure’s first natural frequency response by more than 9 dB and second natural frequency response by more than 19 dB for both primary masses.'
 publication: '*Topics in Modal Analysis & Testing, Volume 8*'
 ---

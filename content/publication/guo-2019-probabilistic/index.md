@@ -9,13 +9,15 @@ authors:
 - J Guo
 - S Dadashi
 - M Bender
-- ST Paruchuri
+- admin
 - N Powell
 - Y Sharma
 - H Kurdila
 - JW McGlothlin
 - AJ Kurdila
-tags: []
+tags: 
+  - data-driven modeling
+  - learning
 categories: []
 date: '2019-01-01'
 lastmod: 2022-11-12T05:28:27-05:00
@@ -39,6 +41,6 @@ projects: []
 publishDate: '2022-11-12T10:28:27.147238Z'
 publication_types:
 - '2'
-abstract: ''
+abstract: 'Abstract In contrast to many systems studied in the field of classical mechanics, models of animal motion are often distinguished in that they are both highly uncertain and evolve in a high-dimensional configuration space Q. Often it is either suspected or known that a particular motion regime evolves on or near some smaller subset Q 0 ⊆ Q . In some cases, Q 0 may itself be a submanifold of Q. A general strategy is presented in this paper for constructing empirical-analytical Lagrangian (EAL) models of the mechanics of such systems. It is assumed that the set Q0 ⊆ Q is defined by a collection of unknown holonomic constraints on the full configuration space. Since the ana- lytic form of the holonomic constraints is unknown, EAL models are defined that use experimental observations {z1,...,zN} ⊆ QN to ensure that the approximate system models evolve near the underlying submanifold Q0. This paper gives a precise characterization of a probabilistic measure of the distance from the EAL model to the underlying submanifold.'
 publication: '*Nonlinear Dynamics*'
 ---

@@ -7,11 +7,13 @@ summary: ''
 authors:
 - Jia Guo
 - Michael E Kepler
-- Sai Tej Paruchuri
+- admin
 - Hoaran Wang
 - Andrew J Kurdila
 - Daniel J Stilwell
-tags: []
+tags: 
+  - data-driven modeling
+  - learning
 categories: []
 date: '2022-01-01'
 lastmod: 2022-11-12T05:28:34-05:00
@@ -35,6 +37,6 @@ projects: []
 publishDate: '2022-11-12T10:28:33.900195Z'
 publication_types:
 - '2'
-abstract: ''
+abstract: 'This article studies the distributed parameter system that governs adaptive estimation by mobile sensor networks of external fields in a reproducing ker- nel Hilbert space (RKHS). The article begins with the derivation of conditions that guarantee the well-posedness of the ideal, infinite dimensional governing equations of evolution for the centralized estimation scheme. Subsequently, con- vergence of finite dimensional approximations is studied. Rates of convergence in all formulations are established using history-dependent bases defined from translates of the RKHS kernel that are centered at sample points along the agent trajectories. Sufficient conditions are derived that ensure that the finite dimen- sional approximations of the ideal estimator equations converge at a rate that is bounded by the fill distance of samples in the agents’ assigned subdomains. The article concludes with examples of simulations and experiments that illustrate the qualitative performance of the introduced algorithms.'
 publication: '*International Journal of Adaptive Control and Signal Processing*'
 ---

@@ -2,7 +2,7 @@
 title: Nonlinear Control of Robotic Manipulator
 summary: Nonlinear systems theory course project.
 tags:
-  - Graduate
+  - graduate
 date: '2020-05-01T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).

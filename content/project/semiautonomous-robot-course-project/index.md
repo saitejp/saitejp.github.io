@@ -2,8 +2,8 @@
 title: Semi-Autonomous Robot Development
 summary: Experimental robotics course project.
 tags:
-  - Graduate
-date: '2014-05-01T00:00:00Z'
+  - graduate
+date: '2020-05-01T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''

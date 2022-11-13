@@ -8,9 +8,11 @@ summary: ''
 authors:
 - Andrew J Kurdila
 - Jia Guo
-- Sai Tej Paruchuri
+- admin
 - Parag Bobade
-tags: []
+tags: 
+  - data-driven modeling
+  - learning
 categories: []
 date: '2019-01-01'
 lastmod: 2022-11-12T05:28:27-05:00
@@ -34,6 +36,6 @@ projects: []
 publishDate: '2022-11-12T10:28:27.366418Z'
 publication_types:
 - '2'
-abstract: ''
+abstract: 'This paper studies the relationship between the positive limit sets of continuous semiflows and the newly introduced definition of persistently excited (PE) sets and associated subspaces of reproducing kernel Hilbert (RKH) spaces. It is shown that if the RKH space contains a rich collection of cut-off functions, persistently excited sets are contained as subsets of the positive limit set of the semiflow. The paper demonstrates how the new PE condition can be used to guarantee convergence of function estimates in the RKH space embedding method for adaptive estimation. In particular, the paper is applied to uncertain ODE systems with positive limit sets given by certain types of smooth manifolds, and it establishes convergence of adaptive function estimates over the manifolds.'
 publication: '*arXiv preprint arXiv:1909.12274*'
 ---
