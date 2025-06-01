@@ -19,6 +19,8 @@ navigation:
     url: /teaching
   - title: Service
     url: /service
+  - title: Contact
+    url: /contact
   - title: CV
     url: /assets/pdf/CV_ParuchuriST.pdf
 
@@ -35,7 +37,10 @@ theme: jekyll-theme-minimal
 # logo: /assets/img/logo.png  # Add a profile photo or logo
 show_downloads: false       # Set to true if you want to highlight CV/resume downloads
 
+# Contact information
+email: saitejp@lehigh.edu
+
 # Social links
-github_username: saitejp
+# github_username: saitejp
 linkedin_username: saitejparuchuri
 google_scholar: rxMB0HAAAAAJ
