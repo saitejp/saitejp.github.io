@@ -21,4 +21,4 @@ Bethlehem, PA 18015
 USA
 
 ## Connect
-Feel free to reach out if you have questions about my research, are interested in collaboration opportunities, or would like to discuss potential projects.
+Feel free to reach out if you have questions about my research, or are interested in collaboration opportunities.
