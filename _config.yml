@@ -7,12 +7,18 @@ url: "https://saitejp.github.io"
 navigation:
   - title: Home
     url: /
+  - title: Education
+    url: /education
+  - title: Experience
+    url: /experience
   - title: Research
     url: /research
   - title: Publications
     url: /publications
   - title: Teaching
     url: /teaching
+  - title: Service
+    url: /service
   - title: CV
     url: /assets/pdf/CV_ParuchuriST.pdf
 

@@ -3,7 +3,7 @@ title: Teaching
 layout: default
 ---
 
-# Teaching and Mentoring Experience
+# Teaching, Supervision, and Mentoring Experience
 
 ## Instructor Roles
 
