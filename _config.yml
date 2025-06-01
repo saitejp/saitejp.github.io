@@ -1,0 +1,25 @@
+# Site settings
+title: Sai Tej Paruchuri
+description: Personal website of Sai Tej Paruchuri
+url: "https://saitejp.github.io"
+
+# Theme settings
+theme: jekyll-theme-minimal
+# Other supported themes include:
+# jekyll-theme-cayman
+# jekyll-theme-midnight
+# jekyll-theme-tactile
+# jekyll-theme-dinky
+# jekyll-theme-modernist
+# jekyll-theme-slate
+# jekyll-theme-merlot
+# jekyll-theme-time-machine
+# jekyll-theme-leap-day
+# jekyll-theme-hacker
+
+# Google Analytics
+# google_analytics: [Your ID]
+
+# Social links (optional)
+github_username: saitejp
+linkedin_username: saitejparuchuri

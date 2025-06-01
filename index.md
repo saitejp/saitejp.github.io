@@ -8,6 +8,7 @@ title: Sai Tej Paruchuri
 Email: [saitejp@lehigh.edu](mailto:saitejp@lehigh.edu)  
 Website: [https://saitejp.github.io](https://saitejp.github.io)  
 LinkedIn: [linkedin.com/in/saitejparuchuri](https://www.linkedin.com/in/saitejparuchuri/)  
+Google Scholar: [Profile](https://scholar.google.com/citations?user=rxMB0HAAAAAJ&hl=en&oi=ao)  
 CV: [Download PDF](/assets/pdf/CV_ParuchuriST.pdf)
 
 ---
@@ -44,7 +45,7 @@ CV: [Download PDF](/assets/pdf/CV_ParuchuriST.pdf)
 
 ## Publications
 
-For a complete list of publications, please visit my [Google Scholar profile](https://scholar.google.com/citations?user=rxMB0HAAAAAJ&hl=en&oi=ao).
+For a complete list of publications, please refer to my [Google Scholar profile](https://scholar.google.com/citations?user=rxMB0HAAAAAJ&hl=en&oi=ao) or download my [CV](/assets/pdf/CV_ParuchuriST.pdf).
 
 ### Selected Journal Articles
 
