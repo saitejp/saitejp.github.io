@@ -1,17 +1,11 @@
 ---
 title: Sai Tej Paruchuri
+layout: default
 ---
 
-# Sai Tej Paruchuri
+# About Me
 
-**Mechanical Engineering & Mechanics, Lehigh University**  
-Email: [saitejp@lehigh.edu](mailto:saitejp@lehigh.edu)  
-Website: [https://saitejp.github.io](https://saitejp.github.io)  
-LinkedIn: [linkedin.com/in/saitejparuchuri](https://www.linkedin.com/in/saitejparuchuri/)  
-Google Scholar: [Profile](https://scholar.google.com/citations?user=rxMB0HAAAAAJ&hl=en&oi=ao)  
-CV: [Download PDF](/assets/pdf/CV_ParuchuriST.pdf)
-
----
+I am a Research Scientist at the Plasma Control Laboratory in the Department of Mechanical Engineering & Mechanics at Lehigh University. My research focuses on nonlinear control theory and its applications in nuclear fusion, particularly in tokamak plasma control.
 
 ## Education
 
@@ -27,21 +21,15 @@ CV: [Download PDF](/assets/pdf/CV_ParuchuriST.pdf)
 
 - **B.E. in Mechanical Engineering**, Thiagarajar College of Engineering (TCE), Madurai, India (2010–2014)  
 
----
-
 ## Academic Appointments
 
 - **Research Scientist**, Plasma Control Laboratory, Mechanical Engineering & Mechanics, Lehigh University, Bethlehem, PA, USA (Jan 2023 – Present)  
 - **Postdoctoral Research Associate**, Plasma Control Laboratory, Mechanical Engineering & Mechanics, Lehigh University, Bethlehem, PA, USA (Nov 2020 – Dec 2022)  
 
----
-
 ## Research Interests
 
 - Nuclear Fusion & Tokamaks; Scalar & Profile Control of Tokamak Plasmas; Integrated Control & Actuator Management in Tokamaks; Tokamak Scenario Optimization; AI-Driven Fusion Solutions  
 - Nonlinear Control; Adaptive Control; Optimal & Robust Control; Adaptive Dynamic Programming; Nonparametric Estimation; RKHS Embedding Methods; Reinforcement Learning  
-
----
 
 ## Publications
 
@@ -61,8 +49,6 @@ For a complete list of publications, please refer to my [Google Scholar profile]
 2. Wang, Z.; Paruchuri, S. T.; Yang, L.; Schuster, E. **Safety Factor Profile Regulation via Self-Triggered Model Predictive Control in the EAST Tokamak**, in *2024 American Control Conference (ACC)*, pp. 2545–2550, July 10–12, 2024.  
 3. Paruchuri, S. T.; Pajares, A.; Schuster, E. **Nonlinear Local Control of the Safety-Factor-Profile Gradient at Moving Spatial Locations in Tokamak Plasmas**, in *2023 American Control Conference (ACC)*, pp. 1590–1595, 2023.  
 
----
-
 ## Research Experience
 
 ### Experimental Campaigns at Major International Fusion Research Facilities
@@ -81,8 +67,6 @@ For a complete list of publications, please refer to my [Google Scholar profile]
   - Assisted in the development and validation of plasma control system (PCS) infrastructure to mimic ITER-like delayed gas puffing.  
   - Partnered with KIFE specialists in plasma control and pellet injection systems.  
   - Validated the robustness of the PCS in replicating ITER-like delayed gas puffing conditions.  
-
----
 
 ## Teaching, Supervision, and Mentoring Experience
 
@@ -124,13 +108,9 @@ For a complete list of publications, please refer to my [Google Scholar profile]
 - **Academic Coach**, Student Transition Engineering Program, Virginia Tech (Summer 2017 & 2018)  
 - **Peer Mentor**, Virginia Tech Early Engineering Mentoring Program (Summer & Fall 2018)  
 
----
-
 ## Industry Work Experience
 
 - **Design Engineer**, Amritha Tool Crafts Pvt. Ltd., India (September 2014 – May 2015)  
-
----
 
 ## Academic Service
 
@@ -148,8 +128,6 @@ For a complete list of publications, please refer to my [Google Scholar profile]
 
 - Session Co-Chair, ASME IDETC 2017, Cleveland, USA  
 - Session Chair, IEEE American Control Conference 2024, Toronto, Canada  
-
----
 
 ## Referees
 

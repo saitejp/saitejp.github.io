@@ -1,0 +1,70 @@
+---
+layout: default
+---
+
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <style>
+      .navigation {
+        margin-bottom: 2rem;
+        border-bottom: 1px solid #e5e5e5;
+        padding-bottom: 1rem;
+      }
+      .navigation a {
+        margin-right: 1rem;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      .navigation a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+        
+        {% if site.logo %}
+          <img src="{{site.logo | relative_url}}" alt="Logo" />
+        {% endif %}
+        
+        <p>{{ site.description | default: site.github.project_tagline }}</p>
+        
+        <!-- Add social links -->
+        <p class="social-links">
+          {% if site.github_username %}
+          <a href="https://github.com/{{ site.github_username }}">GitHub</a><br>
+          {% endif %}
+          {% if site.linkedin_username %}
+          <a href="https://linkedin.com/in/{{ site.linkedin_username }}">LinkedIn</a><br>
+          {% endif %}
+          {% if site.google_scholar %}
+          <a href="https://scholar.google.com/citations?user={{ site.google_scholar }}">Google Scholar</a>
+          {% endif %}
+        </p>
+      </header>
+      
+      <section>
+        <!-- Navigation bar -->
+        <div class="navigation">
+          {% for nav_item in site.navigation %}
+            <a href="{{ nav_item.url }}">{{ nav_item.title }}</a>
+          {% endfor %}
+        </div>
+
+        {{ content }}
+
+      </section>
+      <footer>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+  </body>
+</html>

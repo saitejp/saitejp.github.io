@@ -1,25 +1,35 @@
 # Site settings
 title: Sai Tej Paruchuri
-description: Personal website of Sai Tej Paruchuri
+description: Research Scientist in Plasma Control and Nonlinear Systems
 url: "https://saitejp.github.io"
 
+# Navigation
+navigation:
+  - title: Home
+    url: /
+  - title: Research
+    url: /research
+  - title: Publications
+    url: /publications
+  - title: Teaching
+    url: /teaching
+  - title: CV
+    url: /assets/pdf/CV_ParuchuriST.pdf
+
 # Theme settings
+# Current theme: minimal (clean, simple, content-focused)
 theme: jekyll-theme-minimal
-# Other supported themes include:
-# jekyll-theme-cayman
-# jekyll-theme-midnight
-# jekyll-theme-tactile
-# jekyll-theme-dinky
-# jekyll-theme-modernist
-# jekyll-theme-slate
-# jekyll-theme-merlot
-# jekyll-theme-time-machine
-# jekyll-theme-leap-day
-# jekyll-theme-hacker
 
-# Google Analytics
-# google_analytics: [Your ID]
+# Recommended academic themes (uncomment one to use):
+# theme: jekyll-theme-slate      # Professional with dark header, excellent readability
+# theme: jekyll-theme-cayman     # Clean design with prominent header, good for highlighting research areas
+# remote_theme: mmistakes/minimal-mistakes  # Feature-rich academic theme, requires additional setup
 
-# Social links (optional)
+# For minimal theme, you can customize the logo and sidebar
+# logo: /assets/img/logo.png  # Add a profile photo or logo
+show_downloads: false       # Set to true if you want to highlight CV/resume downloads
+
+# Social links
 github_username: saitejp
 linkedin_username: saitejparuchuri
+google_scholar: rxMB0HAAAAAJ
