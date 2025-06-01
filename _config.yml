@@ -36,6 +36,6 @@ theme: jekyll-theme-minimal
 show_downloads: false       # Set to true if you want to highlight CV/resume downloads
 
 # Social links
-github_username: saitejp
+# github_username: saitejp
 linkedin_username: saitejparuchuri
 google_scholar: rxMB0HAAAAAJ
