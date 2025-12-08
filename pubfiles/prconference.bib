@@ -1,0 +1,232 @@
+@inproceedings{wang25,
+  title = {Safety {{Factor Profile Control}} in {{EAST}} via {{Reinforcement-Learning-Based Model Predictive Control}}},
+  booktitle = {2025 {{IEEE Conference}} on {{Control Technology}} and {{Applications}} ({{CCTA}})},
+  author = {Wang, Z. and \textbf{S. T. Paruchuri} and Schuster, E.},
+  year = {25-27 Aug. 2025},
+  pages = {832--837},
+  doi = {10.1109/CCTA53793.2025.11151443},
+  abstract = {A tokamak is a toroidal device that utilizes helical magnetic fields to confine a superheated plasma. The spatial distribution of the pitch of the magnetic field, referred to as the safety factor profile, is linked to the stability and performance of the confined plasma. Thus, the capability to control the safety factor profile is essential for realizing advanced operation scenarios in tokamaks. This work proposes a Reinforcement Learning-based Model Predictive Control (RLMPC) approach for the enhanced regulation of the safety factor profile in the Experimental Advanced Superconducting Tokamak (EAST). By estimating in real time the uncertain parameters of the plasma model, the RLMPC method aims to achieve more accurate and robust tracking of the target profile. Besides learning the parameterized control-oriented response model, which serves as a linear constraint in the MPC problem, the reinforcement learning-based algorithm also learns the weight associated with the cost function. Swift convergence of the learnable parameters within the RLMPC is facilitated through a second-order Least Squares Temporal Difference Q-learning algorithm. Simulations based on the Control Oriented Transport SIMulator (COTSIM) show that the proposed RLMPC performs better than conventional linear MPC schemes.},
+  isbn = {2768-0770},
+  keywords = {Magnetic fields,Magnetic materials,Photonic crystals,Plasmas,proceedings,prproceedings,Real-time systems,Regulation,Safety,Stability analysis,Target tracking,Tokamak devices}
+}
+
+@inproceedings{powell2024,
+  title = {Invariance and {{Approximation}} of {{Koopman Operators}} in {{Native Spaces}}},
+  booktitle = {2024 {{American Control Conference}} ({{ACC}})},
+  author = {Powell, N. and \textbf{S. T. Paruchuri} and Bouland, A. and Niu, S. and Kurdila, A.},
+  year = {2024-07-10/2024-07-12},
+  pages = {2871--2878},
+  doi = {10.23919/ACC60939.2024.10644355},
+  abstract = {This paper derives a new condition to ensure that a selected reproducing kernel Hilbert space is invariant under the action of the Koopman operator associated with a generally nonlinear system in discrete time. If the function that determines the dynamics is continuous over an invariant set supporting the dynamics, and the reproducing kernel that defines the space of observables is uniformly bounded above and below by positive constants over the invariant set, then the native space that contains the observables is invariant under the Koopman operator. This condition is used to derive error bounds for approximations of the Koopman operator in the strong operator topology. These bounds are explicit in the number of snapshots and dimension of the subspace used to construct estimates. Numerical examples illustrate the qualitative behavior of the error bounds.},
+  copyright = {All rights reserved},
+  isbn = {2378-5861},
+  keywords = {proceedings,prproceedings,STP}
+}
+
+@inproceedings{wang2024a,
+  title = {Safety {{Factor Profile Regulation}} via {{Self-Triggered Model Predictive Control}} in the {{EAST Tokamak}}},
+  booktitle = {2024 {{American Control Conference}} ({{ACC}})},
+  author = {Wang, Z. and \textbf{S. T. Paruchuri} and Yang, L. and Schuster, E.},
+  year = {2024-07-10/2024-07-12},
+  pages = {2545--2550},
+  doi = {10.23919/ACC60939.2024.10644904},
+  abstract = {The tokamak, a viable option for harnessing nuclear fusion energy, employs strong helical magnetic fields to confine a plasma (ionized gas) within a toroidal vacuum chamber. Optimal performance in tokamaks necessitates sophisticated control mechanisms to shape the spatial profiles of specific plasma properties. One such property is the safety factor \$q\$, which measures the pitch of the helical magnetic field lines. The dynamics of the \$q\$ profile in tokamaks depends on the gradient of the poloidal magnetic flux, which is governed by a nonlinear partial differential equation referred to as the magnetic diffusion equation. In this work, model predictive control (MPC) is proposed to regulate the \$q\$ profile in the EAST tokamak. The finite-horizon optimal control problem (FHOCP) associated with the MPC approach is defined with the goal of minimizing the tracking error between observed and target gradients of the poloidal magnetic flux while satisfying input and state constraints. To address the optimization problem in real time, a simplified model is derived from the magnetic diffusion equation. As a difference from previous efforts in this area, a self-triggered mechanism is implemented within the MPC algorithm to prevent redundant computations arising in fixed sampling-time MPC schemes. Simulation studies show that the proposed controller has the capability of regulating the \$q\$ profile through the manipulation of the plasma current and the heating and current-drive powers. A comparison with regular fixed-sampling-time MPC methods demonstrates that the proposed self-triggered MPC strategy optimizes performance by avoiding redundant computations and saving computational time.},
+  copyright = {All rights reserved},
+  isbn = {2378-5861},
+  keywords = {LU,proceedings,prproceedings,STP}
+}
+
+@inproceedings{paruchuri2023d,
+  title = {Nonlinear {{Local Control}} of the {{Safety-Factor-Profile Gradient}} at {{Moving Spatial Locations}} in {{Tokamak Plasmas}}},
+  booktitle = {2023 {{American Control Conference}} ({{ACC}})},
+  author = {\textbf{S. T. Paruchuri} and Pajares, Andres and Schuster, Eugenio},
+  year = {2023},
+  pages = {1590--1595},
+  doi = {10.23919/ACC55779.2023.10156579},
+  abstract = {Tokamaks are toroidal devices that confine a very hot plasma (hydrogenic ionized gas) by using strong magnetic fields. When the kinetic energy is high, positively charged nuclei in the plasma can overcome the Coulombic forces of repulsion and fuse to form a heavier nucleus. A tremendous amount of energy is released during this reaction. The pitch of the magnetic field in a tokamak, measured by the safety factor profile q, plays a crucial role in ensuring the magnetohydrodynamic (MHD) stability of the tokamak plasma. MHD instabilities like the Neoclassical Tearing Mode (NTM), which can deteriorate or even terminate plasma confinement, can appear at regions in the tokamak where the safety factor profile assumes a rational value. Since the safety factor profile is a continuous function of location in the tokamak, rational values at specific locations are inevitable. Controlling the gradient of the safety factor profile at these locations can prevent or mitigate the effect of MHD instabilities. In this work, a one-dimensional model that approximates the safety factor gradient dynamics at one of the locations where the safety factor q achieves a rational value is developed. A controller based on feedback linearization of this model is designed to track a target gradient value in the steady-state scenario. The effectiveness of this controller is demonstrated in nonlinear numerical simulations powered by the Control Oriented Transport SIMulator (COTSIM) for a DIII-D tokamak scenario.},
+  copyright = {All rights reserved},
+  isbn = {2378-5861},
+  keywords = {LU,proceedings,prproceedings,STP},
+  file = {/Users/saitejparuchuri/Zotero/storage/Y5PGSUHR/\textbf{S. T. Paruchuri} et al. - 2023 - Nonlinear Local Control of the Safety-Factor-Profi.pdf}
+}
+
+@inproceedings{burns2023a,
+  title = {Error {{Bounds}} for {{Native Space Embedding Observers}} with {{Operator-Valued Kernels}}},
+  booktitle = {2023 {{American Control Conference}} ({{ACC}})},
+  author = {Burns, John A. and Guo, Jia and Kurdila, Andrew J. and \textbf{S. T. Paruchuri} and Wang, Haoran},
+  year = {2023},
+  pages = {4796--4801},
+  doi = {10.23919/ACC55779.2023.10156506},
+  abstract = {This paper derives new rates of convergence for observers for a class of uncertain systems governed by non-linear ODEs. We assume that the generally nonlinear function appearing in the ODEs that represents the unknown dynamics is an element of a vector-valued reproducing kernel Hilbert space {$\mathbb{H}$} (RKHS) that is induced by an operator-valued kernel. The vector-valued RKHS embedding method described in the paper yields a nonparametric adaptive estimator that takes the form of distributed parameter system (DPS). The original ODEs in {$\mathbb{R}$}d are thus embedded in a product space {$\mathbb{R}$}d {\texttimes} {$\mathbb{H}$} in which state and functional uncertainty estimates evolve. We first discuss the well-posedness of the DPS formulation, and subsequently describe an approximation scheme in finitedimensional subspaces based on certain types of history dependent bases. We derive sufficient conditions that ensure the consistency of the finite-dimensional approximation scheme, and further derive rates of convergence in some particular cases when the samples that define the scattered bases are dense in some sufficiently regular and invariant subset of the observation space. A numerical example is given to illustrate the qualitative behavior of implementations of the theoretical results derived in the paper.},
+  copyright = {All rights reserved},
+  isbn = {2378-5861},
+  keywords = {proceedings,prproceedings,STP},
+  file = {/Users/saitejparuchuri/Zotero/storage/GVLE7292/J. A. Burns et al. - 2023 - Error Bounds for Native Space Embedding Observers .pdf}
+}
+
+@inproceedings{paruchuri2023f,
+  title = {Lyapunov-Based {{Current-Profile Feedback Control}} in {{Tokamaks}} with {{Nonsymmetric Individual Actuator Saturation}}},
+  booktitle = {2023 {{American Control Conference}} ({{ACC}})},
+  author = {\textbf{S. T. Paruchuri} and Pajares, A. and Schuster, E.},
+  year = {2023},
+  pages = {1377--1382},
+  doi = {10.23919/ACC55779.2023.10156029},
+  abstract = {Advanced tokamak scenarios can achieve optimal tokamak operation by shaping the plasma internal profiles through the use of noninductive heating and current sources. As a result of the dynamic complexities, active control of the power of each noninductive heating and current source, a non-negative value, may be necessary to achieve the desired tokamak performance. However, due to the inherent physical limitations, arbitrary power prescription by the controller may saturate the heating and current drives. Therefore, it is highly desirable to develop a class of active control algorithms that account for the saturation limits of these actuators. A Lyapunov-based nonlinear feedback control algorithm that intrinsically accounts for saturation limits is proposed in this work to regulate the spatial distribution of the toroidal current density in the tokamak. The controller does not rely on constrained optimization techniques, which can be computationally expensive for real-time implementation. Furthermore, the controller can handle nonsymmetric saturation limits, i.e., the absolute values of the upper and lower saturation limits do not have to be equal. The effectiveness of the control algorithm is demonstrated for a DIII-D tokamak scenario in nonlinear simulations.},
+  copyright = {All rights reserved},
+  isbn = {2378-5861},
+  keywords = {LU,proceedings,prproceedings,STP},
+  file = {/Users/saitejparuchuri/Zotero/storage/T6DRVWVS/\textbf{S. T. Paruchuri} et al. - 2023 - Lyapunov-based Current-Profile Feedback Control in.pdf}
+}
+
+@inproceedings{paruchuri2023c,
+  title = {Distributed {{Regulation}} of the {{Safety Factor Profile}} in {{Tokamaks Using Nonlinear Infinite-dimensional Control}}},
+  booktitle = {22nd {{IFAC World Congress}}},
+  author = {\textbf{S. T. Paruchuri} and Schuster, Eugenio},
+  year = {2023},
+  volume = {56},
+  pages = {4466--4471},
+  doi = {10.1016/j.ifacol.2023.10.934},
+  abstract = {Tokamaks are toroidal devices that use helical magnetic fields to confine a plasma (hot ionized gas). Such confinement increases the probability of ionic collisions. When the colliding ions have high enough kinetic energy, they can overcome the Coulombic forces of repulsion and fuse to form a heavier ion. The difference in mass between reactant and product ions is turned into energy, which can potentially be harvested to meet the growing world's energy demands. In tokamaks, the safety factor profile is a plasma property that characterizes the pitch of the helical magnetic field. Experiments have shown that the safety factor is related to the magnetohydrodynamic (MHD) stability of the confined plasma as well as to the capability of achieving highly-confined steady-state operation. Thus, active control of the safety factor profile or related plasma properties is critical for achieving MHD-stable, high-performance plasma operation. The evolution of the safety factor profile is governed by a nonlinear nonautonomous partial differential equation (PDE). The most commonly used control design approach reduces the governing PDE to a set of ordinary differential equations (ODEs) before synthesizing a control law. In this work, a distributed nonlinear safety-factor control law that does not require a finite-dimensional approximation of the governing PDE is proposed. Rigorous analysis shows that the proposed control law can drive the error between the safety factor profile and target profile to zero. The effectiveness of the proposed control law is demonstrated using nonlinear simulations for the DIII-D tokamak.},
+  copyright = {All rights reserved},
+  keywords = {LU,proceedings,prproceedings,STP},
+  file = {/Users/saitejparuchuri/Zotero/storage/7F5ILNUA/Paruchuri and Schuster - 2023 - Distributed Regulation of the Safety Factor Profil.pdf}
+}
+
+@inproceedings{paruchuri2021,
+  title = {Minimum {{Safety Factor Control}} in {{Tokamaks}} via {{Optimal Allocation}} of {{Spatially Moving Electron Cyclotron Current Drive}}},
+  booktitle = {2021 60th {{IEEE Conference}} on {{Decision}} and {{Control}} ({{CDC}})},
+  author = {\textbf{S. T. Paruchuri} and Pajares, Andres and Schuster, Eugenio},
+  year = {2021},
+  pages = {454--459},
+  doi = {10.1109/CDC45484.2021.9683130},
+  abstract = {Tokamaks are torus-shaped devices designed to confine a plasma (ionized gas at around 100 million degrees where fusion reactions can take place) using helical magnetic fields. Such magnetic confinement enables light ions, such as isotopes of hydrogen, to stay confined long enough to undergo a fusion reaction. The pitch of the helical magnetic field in a tokamak is characterized by the safety factor q. The safety factor is closely related to the magnetohydrodynamic stability of the plasma. For instance, instabilities that can degrade or even terminate plasma confinement can occur at spatial locations with rational values of the safety factor q. Thus, actively increasing the minimum magnitude of the safety factor can reduce the occurrence of low-order (low rational q values) instabilities. Non-inductive sources of current like neutral beam injection (NBI) and electron cyclotron current drive (ECCD) are used to control the q-profile. ECCD generates electromagnetic waves to drive current and/or heat the plasma. Mirrors are used to control the spatial region of incidence of the generated electromagnetic waves. In this work, the ECCD mirror's position is treated as a controllable input, and its effects are included in the response model used for control design. A controller based on feedback linearization is proposed to simultaneously allocate the NBI and ECCD powers and the ECCD position to track a target minimum safety factor. The effectiveness of the controller is assessed for a DIII-D tokamak scenario in nonlinear one-dimensional simulations using COTSIM (Control-Oriented Transport SIMulator).},
+  copyright = {All rights reserved},
+  isbn = {2576-2370},
+  keywords = {LU,proceedings,prproceedings,STP},
+  file = {/Users/saitejparuchuri/Zotero/storage/XTBMLYTH/\textbf{S. T. Paruchuri} et al. - 2021 - Minimum Safety Factor Control in Tokamaks via Opti.pdf}
+}
+
+@inproceedings{aulisa2021,
+  title = {Accurate {{Approximate Regulation}} of {{Nonlinear Delay Differential Control Systems}}},
+  booktitle = {2021 60th {{IEEE Conference}} on {{Decision}} and {{Control}} ({{CDC}})},
+  author = {Aulisa, E. and Burns, J. A. and Gilliam, D. S. and \textbf{S. T. Paruchuri}},
+  year = {2021},
+  pages = {422--427},
+  doi = {10.1109/CDC45484.2021.9683209},
+  abstract = {In this paper we present an approximate controller design methodology for tracking/disturbance-rejection problems governed by nonlinear delay differential control systems. The method considered here is a version of the practical regulation approach developed by the authors in a series of articles. It is important to note that this approach to regulation does not require the existence of an exo-system to define disturbances and signals to be tracked. Therefore, this control law enables tracking and disturbance rejection for general reference and disturbance signals. The idea is similar to the inclusion of a cascade controller design providing a sequence of increasingly more accurate and better preforming controllers. The underlying principle derives from well known geometric methods which rely on the existence of an attractive invariant manifold in the case when the reference and disturbance signals are outputs of an autonomous, linear, neutrally stable exo-system. However, we are able accomplish high performance tracking without this assumption. References in the literature are provided for the history of the methodology and proofs of the error estimates for general systems. We show, in our included example, that the tracking error can be significantly enhanced using a single extra step in the sequence of controllers. In particular, at each step in the cascade controller the error from the previous step provides the reference signal for the next step. In this way, at each step the errors are reduced geometrically.},
+  copyright = {All rights reserved},
+  isbn = {2576-2370},
+  keywords = {proceedings,prproceedings,STP},
+  file = {/Users/saitejparuchuri/Zotero/storage/8EUFQ3KT/E. Aulisa et al. - 2021 - Accurate Approximate Regulation of Nonlinear Delay.pdf}
+}
+
+@inproceedings{burns2021,
+  title = {Output {{Regulation}} of {{Systems Governed}} by {{Delay Differential Equations}}: {{Approximations}} and {{Robustness}}},
+  booktitle = {24th {{International Symposium}} on {{Mathematical Theory}} of {{Networks}} and {{Systems MTNS}} 2020},
+  author = {Burns, John A. and \textbf{S. T. Paruchuri} and Schmidt, Michael},
+  year = {2021},
+  volume = {54},
+  pages = {422--427},
+  doi = {10.1016/j.ifacol.2021.06.099},
+  abstract = {In this paper we consider a problem of robust geometric regulation for tracking and disturbance rejection of systems governed by delay differential equations. It is well known that geometric regulation can be highly sensitive to system parameters and hence such designs are not always robust. In particular, when employing numerical approximations to delay systems, the resulting finite dimensional models inherit natural approximation errors that can impact robustness. We demonstrate this lack of robustness and then show that robustness can be recovered by employing versions of robust regulation that have been developed for infinite dimensional systems. Numerical examples are given to illustrate the ideas.},
+  copyright = {All rights reserved},
+  keywords = {proceedings,prproceedings,STP},
+  file = {/Users/saitejparuchuri/Zotero/storage/4P3LK6GQ/Burns et al. - 2021 - Output Regulation of Systems Governed by Delay Dif.pdf}
+}
+
+@inproceedings{guo2020,
+  title = {Persistence of {{Excitation}} in {{Uniformly Embedded Reproducing Kernel Hilbert}} ({{RKH}}) {{Spaces}}},
+  booktitle = {2020 {{American Control Conference}} ({{ACC}})},
+  author = {Guo, J. and \textbf{S. T. Paruchuri} and Kurdila, A. J.},
+  year = {2020},
+  pages = {4539--4544},
+  doi = {10.23919/ACC45564.2020.9147851},
+  copyright = {All rights reserved},
+  isbn = {2378-5861},
+  keywords = {proceedings,prproceedings,STP},
+  file = {/Users/saitejparuchuri/Zotero/storage/CX442MXT/J. Guo et al. - 2020 - Persistence of Excitation in Uniformly Embedded Re.pdf}
+}
+
+@inproceedings{guo2020a,
+  title = {Approximations of the {{Reproducing Kernel Hilbert Space}} ({{RKHS}}) {{Embedding Method}} over {{Manifolds}}},
+  booktitle = {2020 59th {{IEEE Conference}} on {{Decision}} and {{Control}} ({{CDC}})},
+  author = {Guo, J. and \textbf{S. T. Paruchuri} and Kurdila, A. J.},
+  year = {2020},
+  pages = {1596--1601},
+  doi = {10.1109/CDC42340.2020.9304331},
+  abstract = {The reproducing kernel Hilbert space (RKHS) embedding method is a recently introduced estimation approach that seeks to identify the unknown or uncertain function in the governing equations of a nonlinear set of ordinary differential equations (ODEs). While the original state estimate evolves in Euclidean space, the function estimate is constructed in an infinite dimensional RKHS and must be approximated in practice. When a finite dimensional approximation is constructed using a basis defined in terms of shifted kernel functions centered at the observations along a trajectory, the RKHS embedding method can be understood as a data-driven approach. This paper derives sufficient conditions that ensure that approximations of the unknown function converge in a Sobolev norm over a submanifold that supports the dynamics. Moreover, the rate of convergence for the finite dimensional approximations is derived in terms of the fill distance of the samples in the embedded manifold. A numerical simulation of an example problem is carried out to illustrate the qualitative nature of convergence results derived in the paper.},
+  copyright = {All rights reserved},
+  isbn = {2576-2370},
+  keywords = {proceedings,prproceedings,STP},
+  file = {/Users/saitejparuchuri/Zotero/storage/Y4E3MXIY/J. Guo et al. - 2020 - Approximations of the Reproducing Kernel Hilbert S.pdf}
+}
+
+@inproceedings{paruchuri2020d,
+  title = {Intrinsic and {{Extrinsic Approximation}} of {{Koopman Operators}} over {{Manifolds}}},
+  booktitle = {2020 59th {{IEEE Conference}} on {{Decision}} and {{Control}} ({{CDC}})},
+  author = {\textbf{S. T. Paruchuri} and Guo, J. and Kepler, M. and Ryan, T. and Wang, H. and Kurdila, A. J. and Stilwell, D.},
+  year = {2020},
+  pages = {1608--1613},
+  doi = {10.1109/CDC42340.2020.9304383},
+  abstract = {This paper derives rates of convergence of certain approximations of the Koopman operators that are associated with discrete, deterministic, continuous semiflows on a complete metric space (X,dX). Approximations are constructed in terms of reproducing kernel bases that are centered at samples taken along the system trajectory. It is proven that when the samples are dense in a certain type of smooth manifold M {$\subseteq$} X, the derived rates of convergence depend on the fill distance of samples along the trajectory in that manifold. Error bounds for projection-based and data-dependent approximations of the Koopman operator are derived in the paper. A discussion of how these bounds are realized in intrinsic and extrinsic approximation methods is given. Finally, a numerical example that illustrates qualitatively the convergence guarantees derived in the paper is given.},
+  copyright = {All rights reserved},
+  isbn = {2576-2370},
+  keywords = {proceedings,prproceedings,STP},
+  file = {/Users/saitejparuchuri/Zotero/storage/C9RR74EQ/\textbf{S. T. Paruchuri} et al. - 2020 - Intrinsic and Extrinsic Approximation of Koopman O.pdf}
+}
+
+@inproceedings{sterling2018,
+  title = {Effect of {{Increased Damping}} in {{Subordinate Oscillator Arrays}}},
+  booktitle = {Journal of {{Physics}}: {{Conference Series}}},
+  author = {Sterling, John and Vignola, Joseph and Gietl, Jenna and Ryan, Teresa and Sonne, Noah and \textbf{S. T. Paruchuri}},
+  year = {2018},
+  volume = {1149},
+  pages = {012006},
+  publisher = {IOP Publishing},
+  doi = {10.1088/1742-6596/1149/1/012006},
+  abstract = {Previous literature has shown that large structures with a significant number of smaller attached structures exhibit much higher apparent damping than was predicted by models. Further research into this effect led to the discovery that arrays of such small attachments can be designed to alter the response of the overall system. That work also showed that small variation in the distribution of attachment mass or stiffness degrade the performance of the system. Additive manufacturing has now matured such that several methods provide the capability to realize the tolerances required to effectively test these designs. This paper discusses the use of StereoLithography Apparatus (SLA) optical fabrication to test the error sensitivity of different materials using laser vibrometry to characterize the mechanical behavior of the system.},
+  copyright = {All rights reserved},
+  keywords = {prproceedings,STP},
+  file = {/Users/saitejparuchuri/Zotero/storage/8PPU2FKU/Sterling et al. - 2018 - Effect of Increased Damping in Subordinate Oscilla.pdf}
+}
+
+@inproceedings{paruchuri2018,
+  title = {Estimation of {{Distribution Errors}} in {{Piezoelectric Subordinate Oscillator Arrays}}},
+  booktitle = {{{SMASIS2018}}},
+  author = {\textbf{S. T. Paruchuri} and Kurdila, Andrew and Vignola, Joseph},
+  year = {2018},
+  address = {Volume 1: Development and Characterization of Multifunctional Materials; Modeling, Simulation, and Control of Adaptive Systems; Integrated System Design and Implementation},
+  doi = {10.1115/SMASIS2018-8065},
+  urldate = {2023-11-27},
+  abstract = {Subordinate Oscillator Arrays (SOAs) have been shown to be effective methods for band-limited vibration attenuation. However, SOAs are very sensitive to error in parameter distributions. Slight disorder in structural parameters can render an SOA ineffective. Recent research has shown that Piezoelectric SOAs (PSOAs) provide an alternative that can limit the degradation of the frequency response function due to the disorder. The capacitive shunts attached to such SOAs can be tuned to change overall electromechanical properties of the SOA post-fabrication. The conventional methods of tuning, which study the Frequency Response Function (FRF) of each oscillator in the array, can be an extremely time-consuming process. To apply a systematic approach to tuning, an estimate of the disorder in structural property distributions can be crucial. In this paper, we discuss a simple and effective methodology to estimate the actual structural parameters and subsequently tune the PSOA to ameliorate the effect of disorder. We derive an adaptive estimation technique for PSOAs and present numerical results that demonstrate improved vibration attenuation of this approach.},
+  copyright = {All rights reserved},
+  keywords = {proceedings,prproceedings,STP},
+  annotation = {V001T03A014}
+}
+
+@inproceedings{paruchuri2017,
+  title = {Piezoelectric Composite Subordinate Oscillator Arrays and Frequency Response Shaping for Passive Vibration Attenuation},
+  booktitle = {2017 {{IEEE Conference}} on {{Control Technology}} and {{Applications}} ({{CCTA}})},
+  author = {\textbf{S. T. Paruchuri} and Sterling, John and Kurdila, Andrew and Vignola, Joseph},
+  year = {2017},
+  pages = {702--707},
+  doi = {10.1109/CCTA.2017.8062544},
+  abstract = {Subordinate Oscillator Arrays (SOAs) can be shown theoretically to provide vibration attenuation that is characterized by a frequency response function with a magnitude that is approximately flat over a finite bandwidth. However, the actual performance of SOA designs can suffer due to uncertainties in the structural parameters of the host and SOA. In this paper, we describe a piezoelectric composite SOA that can be used either actively or passively to account or correct for uncertainties in structural parameters that result from fabrication. This paper uses thermodynamic variational principles to derive the equations of motion for the active SOA formed using piezoelectric composites. We discuss techniques to optimize vibration attenuation for the SOA with fabrication errors using the piezoelectric appendages in the SOA.},
+  copyright = {All rights reserved},
+  keywords = {proceedings,prproceedings,STP}
+}
+
+@inproceedings{paruchuri2017a,
+  title = {Thermodynamic {{Variational Formulations}} of {{Subordinate Oscillator Arrays}} ({{SOA}}) {{With Linear Piezoelectrics}}},
+  booktitle = {{{IDETC-CIE2017}}},
+  author = {\textbf{S. T. Paruchuri} and Kurdila, Andrew J. and Sterling, John and Vignola, Amelia and Judge, John and Vignola, Joe and Ryan, Teresa},
+  year = {2017},
+  address = {Volume 8: 29th Conference on Mechanical Vibration and Noise},
+  doi = {10.1115/DETC2017-68056},
+  urldate = {2023-11-27},
+  abstract = {It has been shown theoretically that by prescribing the mass and stiffness distributions of a subordinate oscillator array (SOA) that is attached to a host structure, significant vibration attenuation of a host can be obtained over a finite frequency range. This case stands in stark contrast to classical vibration isolator designs for two degree of freedom systems that achieve exact vibration cancellation at a single isolated frequency. Despite the attractiveness of SOAs for the design of broader band vibration suppression, the theoretically desired result can deteriorate rapidly due to small fabrication imperfections in the SOA. This paper introduces and compares variational thermodynamic formulations of composite piezoelectric SOA that are designed to be adjustable in real-time to ameliorate the effects of disorder due to fabrication in a SOA.},
+  copyright = {All rights reserved},
+  keywords = {proceedings,prproceedings,STP},
+  annotation = {V008T12A068}
+}
+
