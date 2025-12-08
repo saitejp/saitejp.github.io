@@ -108,12 +108,12 @@ def parse_bibtex_file(filepath):
 
 
 def format_authors(authors_str):
-    """Format author string, highlighting S. T. Paruchuri."""
+    """Format author string, highlighting Sai Tej Paruchuri."""
     # Clean LaTeX formatting first
     authors_str = clean_latex(authors_str)
     
     # Replace the specific author marker if it appears
-    authors_str = authors_str.replace('S. T. Paruchuri', '**Paruchuri, S. T.**')
+    authors_str = authors_str.replace('S. T. Paruchuri', '**Paruchuri, Sai Tej**')
     
     # Split by 'and'
     authors = [a.strip() for a in authors_str.split(' and ')]
@@ -172,9 +172,9 @@ def format_journal_article(entry, index):
     elif year:
         parts.append(f"{year}.")
     
-    # DOI link (optional)
-    # if doi:
-    #     parts.append(f"[DOI: {doi}](https://doi.org/{doi})")
+    # DOI link
+    if doi:
+        parts.append(f"[DOI](https://doi.org/{doi})")
     
     return ' '.join(parts)
 
@@ -207,6 +207,10 @@ def format_conference_proceeding(entry, index):
     
     # Year
     parts.append(f"{year}.")
+    
+    # DOI link
+    if doi:
+        parts.append(f"[DOI](https://doi.org/{doi})")
     
     return ' '.join(parts)
 
