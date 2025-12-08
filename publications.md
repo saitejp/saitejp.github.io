@@ -5,7 +5,7 @@ layout: default
 
 # Publications
 
-For a complete list of publications, please refer to my [Google Scholar profile](https://scholar.google.com/citations?user=rxMB0HAAAAAJ&hl=en&oi=ao) or download my [CV](/assets/pdf/CV_ParuchuriST.pdf).
+[Google Scholar profile](https://scholar.google.com/citations?user=rxMB0HAAAAAJ&hl=en&oi=ao)
 
 ## Journal Articles
 
