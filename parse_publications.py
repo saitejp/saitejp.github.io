@@ -127,7 +127,7 @@ def extract_year(entry):
     year_str = entry.get('year', '')
     
     # Try to extract 4-digit year
-    match = re.search(r'\b(20\d{2})\b', year_str)
+    match = re.search(r'\b((?:19|20)\d{2})\b', year_str)
     if match:
         return int(match.group(1))
     
@@ -257,17 +257,36 @@ def main():
     conf_abs_entries.sort(key=extract_year, reverse=True)
     
     # Format entries
-    print("## Journal Articles\n")
+    lines = [
+        "---",
+        "title: Publications",
+        "layout: default",
+        "---",
+        "",
+        "# Publications",
+        "",
+        "[Google Scholar profile](https://scholar.google.com/citations?user=rxMB0HAAAAAJ&hl=en&oi=ao)",
+        "",
+        "## Journal Articles",
+        "",
+    ]
     for i, entry in enumerate(journal_entries, 1):
-        print(format_journal_article(entry, i))
-    
-    print("\n## Conference Proceedings\n")
+        lines.append(format_journal_article(entry, i))
+
+    lines += ["", "## Conference Proceedings", ""]
     for i, entry in enumerate(conf_proc_entries, 1):
-        print(format_conference_proceeding(entry, i))
-    
-    print("\n## Conference Abstracts\n")
+        lines.append(format_conference_proceeding(entry, i))
+
+    lines += ["", "## Conference Abstracts", ""]
     for i, entry in enumerate(conf_abs_entries, 1):
-        print(format_conference_abstract(entry, i))
+        lines.append(format_conference_abstract(entry, i))
+
+    # Write publications page
+    output_path = base_dir / 'publications.md'
+    output_path.write_text('\n'.join(lines) + '\n', encoding='utf-8')
+    print(f"Wrote {len(journal_entries)} journal articles, "
+          f"{len(conf_proc_entries)} conference proceedings, and "
+          f"{len(conf_abs_entries)} conference abstracts to {output_path.name}")
 
 
 if __name__ == '__main__':

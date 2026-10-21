@@ -1,6 +1,6 @@
 # Site settings
 title: Sai Tej Paruchuri
-description: Research Scientist in Plasma Control and Nonlinear Systems
+description: Assistant Professor, Mechanical Engineering, IIT Madras | Plasma Control and Nonlinear Systems
 url: "https://saitejp.github.io"
 
 # Navigation
@@ -38,9 +38,17 @@ theme: jekyll-theme-minimal
 show_downloads: false       # Set to true if you want to highlight CV/resume downloads
 
 # Contact information
-email: saitejp@lehigh.edu
+email: saitejp@iitm.ac.in
 
 # Social links
 # github_username: saitejp
 linkedin_username: saitejparuchuri
 google_scholar: rxMB0HAAAAAJ
+
+# Files kept in the repository but not published on the site
+exclude:
+  - parse_publications.py
+  - pubfiles/
+  - Gemfile
+  - Gemfile.lock
+  - vendor/

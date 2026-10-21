@@ -1,11 +1,19 @@
 # IDEs
 .idea/
 
-# Hugo
-resources/
-public/
-jsconfig.json
-node_modules/
-go.sum
-.hugo_build.lock
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Python
+__pycache__/
+
+# macOS
 .DS_Store
+
+# Local preview
+Gemfile.lock
+vendor/
+.bundle/
