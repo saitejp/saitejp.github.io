@@ -23,6 +23,10 @@ layout: default
       .navigation a:hover {
         text-decoration: underline;
       }
+      .research-group {
+        margin-bottom: 1.5rem;
+        font-weight: bold;
+      }
     </style>
   </head>
   <body>
@@ -35,6 +39,12 @@ layout: default
         {% endif %}
         
         <p>{{ site.description | default: site.github.project_tagline }}</p>
+
+        {% if site.research_group_url %}
+        <p class="research-group">
+          <a href="{{ site.research_group_url | escape }}">Research Group</a>
+        </p>
+        {% endif %}
         
         <!-- Add social links -->
         <p class="social-links">

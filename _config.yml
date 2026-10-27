@@ -41,6 +41,7 @@ show_downloads: false       # Set to true if you want to highlight CV/resume dow
 email: saitejp@iitm.ac.in
 
 # Social links
+research_group_url: "https://scale-lab-iitm.github.io/"
 # github_username: saitejp
 linkedin_username: saitejparuchuri
 google_scholar: rxMB0HAAAAAJ
